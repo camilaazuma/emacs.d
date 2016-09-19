@@ -1,5 +1,8 @@
-# this is a Clojure-friendly emacs config
+# This is a Clojure-friendly based emacs config
 
+I got the basic settings from @flyingmachine and put some flimflan faffing hodge-podge jibber-jabber packages and settings to make procrastination real. Feel free to change all you wish.
+
+---
 If you're new to emacs, check out
 [this introductory tutorial](http://www.braveclojure.com/basic-emacs/)!
 

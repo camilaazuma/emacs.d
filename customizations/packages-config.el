@@ -4,7 +4,9 @@
 
 ;; js-comint
 (require 'js-comint)
-(setq inferior-js-program-command "/usr/bin/java org.mozilla.javascript.tools.shell.Main")
+;;(setq inferior-js-program-command "/usr/bin/java org.mozilla.javascript.tools.shell.Main")
+;; using local rhino
+(setq inferior-js-program-command "/home/camila/Code/libs/rhino1.7.7.1/lib/rhino-1.2.2.1.jar")
 (add-hook 'js2-mode-hook '(lambda () 
 			    (local-set-key "\C-x\C-e" 'js-send-last-sexp)
 			    (local-set-key "\C-\M-x" 'js-send-last-sexp-and-go)

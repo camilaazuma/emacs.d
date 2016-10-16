@@ -11,7 +11,7 @@
 ;;;;;;  tagedit-insert-exclamation-mark tagedit-goto-tag-content
 ;;;;;;  tagedit-disable-experimental-features tagedit-add-experimental-features
 ;;;;;;  tagedit-add-paredit-like-keybindings) "tagedit" "tagedit.el"
-;;;;;;  (22495 10982 918128 472000))
+;;;;;;  (22530 60053 843251 279000))
 ;;; Generated autoloads from tagedit.el
 
 (autoload 'tagedit-add-paredit-like-keybindings "tagedit" "\
@@ -121,8 +121,8 @@ Goto start of content within current tag.
 
 ;;;***
 
-;;;### (autoloads nil nil ("tagedit-pkg.el") (22495 10982 944055
-;;;;;;  508000))
+;;;### (autoloads nil nil ("tagedit-pkg.el") (22530 60053 857449
+;;;;;;  775000))
 
 ;;;***
 

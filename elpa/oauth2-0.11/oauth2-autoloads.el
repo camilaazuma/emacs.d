@@ -5,7 +5,7 @@
 
 ;;;### (autoloads (oauth2-url-retrieve oauth2-url-retrieve-synchronously
 ;;;;;;  oauth2-auth-and-store oauth2-auth oauth2-refresh-access)
-;;;;;;  "oauth2" "oauth2.el" (22495 11364 918120 122000))
+;;;;;;  "oauth2" "oauth2.el" (22530 60584 823253 149000))
 ;;; Generated autoloads from oauth2.el
 
 (autoload 'oauth2-refresh-access "oauth2" "\
@@ -39,7 +39,7 @@ when finished.  See `url-retrieve'.
 
 ;;;***
 
-;;;### (autoloads nil nil ("oauth2-pkg.el") (22495 11364 932242 217000))
+;;;### (autoloads nil nil ("oauth2-pkg.el") (22530 60584 848067 779000))
 
 ;;;***
 

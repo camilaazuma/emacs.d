@@ -1,13 +1,10 @@
 ;;; js-comint-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads (inferior-js-mode switch-to-js js-load-file-and-go
-;;;;;;  js-load-file js-send-buffer-and-go js-send-buffer js-send-last-sexp
-;;;;;;  js-send-last-sexp-and-go js-send-region-and-go js-send-region
-;;;;;;  run-js js-select-node-version js-do-use-nvm) "js-comint"
-;;;;;;  "js-comint.el" (22495 2648 144090 227000))
+;;;### (autoloads nil "js-comint" "js-comint.el" (22530 63390 735263
+;;;;;;  31000))
 ;;; Generated autoloads from js-comint.el
 
 (autoload 'js-do-use-nvm "js-comint" "\
@@ -97,16 +94,9 @@ Javascript source.
 
 ;;;***
 
-;;;### (autoloads nil nil ("js-comint-pkg.el") (22495 2648 162125
-;;;;;;  538000))
-
-;;;***
-
-(provide 'js-comint-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; js-comint-autoloads.el ends here
